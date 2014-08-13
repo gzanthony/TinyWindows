@@ -1,1 +1,12 @@
-c:\users\李\documents\visual studio 2013\Projects\TinyWindows\TinyWindows\bin\Debug\TinyWindows.exe.config
+c:\users\李\documents\visual studio 2013\Projects\TinyWindows\TinyWindows\obj\Debug\TinyWindows.csprojResolveAssemblyReference.cache
+c:\users\李\documents\visual studio 2013\Projects\TinyWindows\TinyWindows\obj\Debug\TinyWindows.TinyWinForm.resources
+c:\users\李\documents\visual studio 2013\Projects\TinyWindows\TinyWindows\obj\Debug\TinyWindows.Properties.Resources.resources
+c:\users\李\documents\visual studio 2013\Projects\TinyWindows\TinyWindows\obj\Debug\TinyWindows.csproj.GenerateResource.Cache
+C:\Users\李\documents\visual studio 2013\Projects\TinyWindows\TinyWindows\obj\Debug\TinyWindows.AboutBox1.resources
+C:\Users\李\documents\visual studio 2013\Projects\TinyWindows\TinyWindows\bin\Debug\tinypng.exe.config
+C:\Users\李\documents\visual studio 2013\Projects\TinyWindows\TinyWindows\bin\Debug\tinypng.exe
+C:\Users\李\documents\visual studio 2013\Projects\TinyWindows\TinyWindows\bin\Debug\tinypng.pdb
+C:\Users\李\documents\visual studio 2013\Projects\TinyWindows\TinyWindows\obj\Debug\tinypng.exe
+C:\Users\李\documents\visual studio 2013\Projects\TinyWindows\TinyWindows\obj\Debug\tinypng.pdb
+C:\Users\李\documents\visual studio 2013\Projects\TinyWindows\TinyWindows\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\李\documents\visual studio 2013\Projects\TinyWindows\TinyWindows\bin\Debug\Newtonsoft.Json.xml
