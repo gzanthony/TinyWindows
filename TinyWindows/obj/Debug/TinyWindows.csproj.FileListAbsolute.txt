@@ -8,5 +8,4 @@ C:\Users\李\documents\visual studio 2013\Projects\TinyWindows\TinyWindows\bin\D
 C:\Users\李\documents\visual studio 2013\Projects\TinyWindows\TinyWindows\bin\Debug\tinypng.pdb
 C:\Users\李\documents\visual studio 2013\Projects\TinyWindows\TinyWindows\obj\Debug\tinypng.exe
 C:\Users\李\documents\visual studio 2013\Projects\TinyWindows\TinyWindows\obj\Debug\tinypng.pdb
-C:\Users\李\documents\visual studio 2013\Projects\TinyWindows\TinyWindows\bin\Debug\Newtonsoft.Json.pdb
 C:\Users\李\documents\visual studio 2013\Projects\TinyWindows\TinyWindows\bin\Debug\Newtonsoft.Json.xml
