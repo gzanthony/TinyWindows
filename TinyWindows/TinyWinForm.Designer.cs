@@ -54,6 +54,7 @@
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.ProcessMessage = new System.Windows.Forms.ListBox();
             this.menuStrip1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
@@ -113,7 +114,6 @@
             // 
             // flowLayoutPanel1
             // 
-            this.flowLayoutPanel1.AllowDrop = true;
             resources.ApplyResources(this.flowLayoutPanel1, "flowLayoutPanel1");
             this.flowLayoutPanel1.Controls.Add(this.toolStrip1);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
@@ -231,11 +231,22 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.DragDrop += new System.Windows.Forms.DragEventHandler(Panel1_DragDrop);
+            this.dataGridView1.DragEnter += new System.Windows.Forms.DragEventHandler(Panel1_DragEnter);
+            // 
+            // ProcessMessage
+            // 
+            this.ProcessMessage.BackColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.ProcessMessage, "ProcessMessage");
+            this.ProcessMessage.ForeColor = System.Drawing.Color.PaleGreen;
+            this.ProcessMessage.FormattingEnabled = true;
+            this.ProcessMessage.Name = "ProcessMessage";
             // 
             // TinyWinForm
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.ProcessMessage);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.menuStrip1);
@@ -283,6 +294,7 @@
         private System.Windows.Forms.ToolStripLabel toolStripLabel2;
         private System.Windows.Forms.ToolStripButton ToolStopBtn;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.ListBox ProcessMessage;
     }
 }
 

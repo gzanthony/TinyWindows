@@ -446,8 +446,8 @@ namespace TinyWindows
                         BeginConvertButton.Enabled = false;
                         menuStrip1.Enabled = false;
 
-                        //ProcessMessage.Items.Clear();
-                        //ProcessMessage.Visible = true;
+                        ProcessMessage.Items.Clear();
+                        ProcessMessage.Visible = true;
                         dataGridView1.Visible = false;
 
                         //先把所有路径存入LIST
@@ -522,12 +522,12 @@ namespace TinyWindows
             int TinyFileStats = int.Parse(TinyFiles.ContainsKey(CurrentFileName).ToString());
             if (TinyFileStats == 3)
             {
-                UploadProcess = true;
-                //ProcessMessage.Items.Add("download file:[" + CurrentFileName + "]");
+                UploadProcess = false;
+                ProcessMessage.Items.Add("download file:[" + CurrentFileName + "]");
             }
             else
             {
-                //ProcessMessage.Items.Add("upload file:[" + CurrentFileName + "]");
+                ProcessMessage.Items.Add("upload file:[" + CurrentFileName + "]");
             }
             
 
@@ -725,8 +725,8 @@ namespace TinyWindows
                 BeginConvertButton.Enabled = true;
                 menuStrip1.Enabled = true;
 
-                //ProcessMessage.Items.Clear();
-                //ProcessMessage.Visible = false;
+                ProcessMessage.Items.Clear();
+                ProcessMessage.Visible = false;
                 dataGridView1.Visible = true;
             }
         }
