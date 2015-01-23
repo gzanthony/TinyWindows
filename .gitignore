@@ -1,3 +1,23 @@
+<<<<<<< HEAD
 /TinyWindows/*
 /TinyWindows/obj
 /TinyWindows/bin
+=======
+# Object files
+*.o
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+>>>>>>> 90bb55fd6dede76b5d03685e6fe28ce69405dcd8
